@@ -88,3 +88,22 @@ Cleanup Demo
 
 Trouble Shooting(TBD)
 --------------------
+Update for SFC-H
+1. Don't use function start_sfc (run_demo.sh)
+2. Don't start "Start Demo" 
+//------------------------------------
+echo "SFC DEMO: Clean"
+clean
+
+echo "SFC DEMO: Start SFC"
+#start_sfc
+
+echo "SFC DEMO: Build Docker"
+build_docker
+
+echo "SFC DEMO: Give some time to have all things ready"
+sleep 120
+
+echo "SFC DEMO: Start Demo"
+#start_demo
+//-------------------------------------
