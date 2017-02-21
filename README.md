@@ -109,3 +109,7 @@ echo "SFC DEMO: Start Demo"
 //-------------------------------------
 Vagrant Image for VirtualBox
 https://www.dropbox.com/sh/dn53i99jm2x2wdg/AAAcRZWM_qCWRdCTWDw2PZS1a?dl=0
+
+// Permission for sh file
+(Do not recommend use "sh name.sh" to run scripts, because it maybe occur a lot of error)
+sudo chmod +x name.sh
